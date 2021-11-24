@@ -1,6 +1,7 @@
 {
   "name": "learn--vite-yaml",
   "version": "0.0.0",
+  "preivate": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
