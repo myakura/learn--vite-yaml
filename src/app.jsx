@@ -1,20 +1,14 @@
-import { Logo } from './logo'
+import { Yaml } from './yaml'
 
 export function App(props) {
   return (
     <>
-      <Logo />
-      <p>Hello Vite + Preact!</p>
+      <h1>Vite + Preact + @rollup/plugin-yaml</h1>
       <p>
-        <a
-          class="link"
-          href="https://preactjs.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Preact
-        </a>
+        Trying out <a class="link" href="https://www.npmjs.com/package/@rollup/plugin-yaml" target="_blank"
+        >@rollup/plugin-yaml</a> in a Vite app.
       </p>
+      <Yaml />
     </>
   )
 }
