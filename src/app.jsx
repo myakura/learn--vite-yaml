@@ -1,4 +1,5 @@
-import { Yaml } from './yaml'
+import { Yaml } from './yaml';
+import { YamlDynamic } from './yaml-dynamic';
 
 export function App(props) {
   return (
@@ -9,6 +10,7 @@ export function App(props) {
         >@rollup/plugin-yaml</a> in a Vite app.
       </p>
       <Yaml />
+			<YamlDynamic />
     </>
   )
 }
